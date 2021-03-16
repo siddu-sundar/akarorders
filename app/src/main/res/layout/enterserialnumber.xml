@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/MyList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:descendantFocusability="beforeDescendants"></ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/edit"
+            android:inputType="number"
+            android:hint="enter starting machine no"
+            android:textSize="40dp"></EditText>
+        <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/refresh"
+        android:textSize="40dp"
+        android:text="REFRESH"></androidx.appcompat.widget.AppCompatButton>
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/done"
+        android:textSize="40dp"
+        android:text="DONE"></androidx.appcompat.widget.AppCompatButton>
+
+</LinearLayout>

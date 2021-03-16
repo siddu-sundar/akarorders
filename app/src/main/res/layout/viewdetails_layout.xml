@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="0dp"
+            android:textSize="17dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/custname"></TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:textSize="17dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/qty"></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/modeltext"
+            android:textSize="17dp"            android:layout_weight="1"
+            android:text="Model"></TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="17dp"
+            android:id="@+id/model"></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="0dp"
+            android:textSize="17dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/capacity_accuracytext"
+            android:text="Cap/Acc"></TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="17dp"
+            android:layout_weight="1"
+            android:id="@+id/capacity_accuracy"></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="0dp"
+            android:id="@+id/brandtext"
+            android:textSize="17dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Brand"></TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="17dp"
+            android:id="@+id/brand"></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="0dp"
+            android:id="@+id/stampingtext"
+            android:layout_height="match_parent"
+            android:textSize="17dp"
+            android:layout_weight="1"
+            android:text="Stamping"></TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="17dp"
+            android:layout_weight="1"
+            android:id="@+id/stamping"></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="17dp"
+            android:id="@+id/loadcelltext"
+            android:text="Loadcell"></TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="17dp"
+            android:layout_weight="1"
+            android:id="@+id/loadcell"></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="0dp"
+            android:textSize="17dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/descriptiontext"
+            android:text="Description"></TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="17dp"
+            android:id="@+id/description"></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="17dp"
+            android:layout_weight="1"
+            android:id="@+id/phonenumbertext"
+            android:text="Phone number"></TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="17dp"
+            android:layout_weight="1"
+            android:id="@+id/phonenumber"></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="17dp"
+            android:layout_weight="1"
+            android:id="@+id/datetext"
+            android:text="Date: "></TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="17dp"
+            android:layout_weight="1"
+            android:id="@+id/date"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="17dp"
+            android:layout_weight="1"
+            android:id="@+id/deliverytext"
+            android:text="Delivery"></TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="17dp"
+            android:layout_weight="1"
+            android:id="@+id/delivery"></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:textSize="17dp"
+            android:id="@+id/completed"
+            android:text="Completed"></androidx.appcompat.widget.AppCompatButton>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:textSize="17dp"
+            android:id="@+id/change"
+            android:text="Change"></androidx.appcompat.widget.AppCompatButton>>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/border"
+            android:layout_weight="1"
+            android:textSize="17dp"
+            android:id="@+id/cancel"
+            android:text="Cancel"></androidx.appcompat.widget.AppCompatButton>>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="0dp"
+            android:textSize="17dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Cust name"
+            android:id="@+id/custnametext"></TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:textSize="17dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/custname"></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/modeltext"
+            android:textSize="17dp"
+            android:layout_weight="1"
+            android:text="Model"></TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="17dp"
+            android:id="@+id/model"></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="0dp"
+            android:textSize="17dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/capacitytext"
+            android:text="Cap"></TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="17dp"
+            android:layout_weight="1"
+            android:id="@+id/capacity"></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="0dp"
+            android:id="@+id/machine_numbertext"
+            android:textSize="17dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Mc number"></TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="17dp"
+            android:id="@+id/machine_number"></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="0dp"
+            android:id="@+id/problemtext"
+            android:layout_height="match_parent"
+            android:textSize="17dp"
+            android:layout_weight="1"
+            android:text="Problem"></TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="17dp"
+            android:layout_weight="1"
+            android:id="@+id/problem"></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="0dp"
+            android:textSize="17dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/descriptiontext"
+            android:text="Description"></TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="17dp"
+            android:id="@+id/description"></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="17dp"
+            android:layout_weight="1"
+            android:id="@+id/phonenumbertext"
+            android:text="Phone number"></TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="17dp"
+            android:layout_weight="1"
+            android:id="@+id/phonenumber"></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="17dp"
+            android:layout_weight="1"
+            android:id="@+id/datetext"
+            android:text="Date"></TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="17dp"
+            android:layout_weight="1"
+            android:id="@+id/date"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:textSize="17dp"
+            android:id="@+id/completed"
+            android:text="Completed"></androidx.appcompat.widget.AppCompatButton>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:textSize="17dp"
+            android:id="@+id/change"
+            android:text="Change"></androidx.appcompat.widget.AppCompatButton>>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/border"
+            android:layout_weight="1"
+            android:textSize="17dp"
+            android:id="@+id/cancel"
+            android:text="Cancel"></androidx.appcompat.widget.AppCompatButton>>
+
+
+    </LinearLayout>
+</LinearLayout>
